@@ -20,7 +20,7 @@
             </objects>
             <point key="canvasLocation" x="-381" y="11"/>
         </scene>
-        <!--Start View Controller-->
+        <!--Start View Controller - iTunes Search Demo-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ESStartViewController" sceneMemberID="viewController">
@@ -69,7 +69,7 @@
                             <constraint firstItem="1Zg-bM-HQg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="mei-uP-0Gk"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="hp4-hD-TUk"/>
+                    <navigationItem key="navigationItem" title="iTunes Search Demo" id="hp4-hD-TUk"/>
                     <connections>
                         <outlet property="tableVIew" destination="1Zg-bM-HQg" id="N7B-pd-Wz5"/>
                         <segue destination="tBh-S8-qbt" kind="push" identifier="toSearch" id="fOQ-RU-3vM"/>
